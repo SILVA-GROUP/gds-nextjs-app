@@ -1,0 +1,51 @@
+@import 'node_modules/govuk-frontend/dist/govuk/all';
+
+body {
+  font-family: 'GDS Transport', arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.content-wrapper {
+  flex: 1 0 auto;
+}
+
+.footer-wrapper {
+  flex-shrink: 0;
+}
+
+.text-govuk-red {
+  color: govuk-colour('red');
+}
+
+.text-govuk-blue {
+  color: govuk-colour('blue');
+}
+
+.text-govuk-green {
+  color: govuk-colour('green');
+}
+
+.text-govuk-yellow {
+  color: govuk-colour('yellow');
+}
+
+.text-govuk-black {
+  color: govuk-colour('black');
+}
+
+.text-govuk-white {
+  color: govuk-colour('white');
+}
+
+.govuk-nowrap {
+  white-space: nowrap;
+}
+
+// Add this at the end of the file
+.border-govuk-border {
+  border-color: #b1b4b6 !important;
+  border-width: 1px !important;
+}
